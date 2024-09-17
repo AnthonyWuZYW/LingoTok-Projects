@@ -46,3 +46,7 @@ def generateQuestions():
     json_object = json.dumps(json_text, indent=4)
     
     return json_object
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
