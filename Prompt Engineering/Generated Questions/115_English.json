@@ -1,0 +1,10 @@
+{
+    "Question": "What is the main problem in this conversation?",
+    "Options": [
+        "A. The kitten is lost.",
+        "B. There are too many kittens.",
+        "C. Someone is trying to kill the kitten.",
+        "D. The kittens are on the side of the road."
+    ],
+    "Answer": "B"
+}

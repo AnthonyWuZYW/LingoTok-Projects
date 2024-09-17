@@ -1,0 +1,10 @@
+{
+    "Question": "What day of the week are shops closed in Germany?",
+    "Options": [
+        "A. Monday",
+        "B. Tuesday",
+        "C. Saturday",
+        "D. Sunday"
+    ],
+    "Answer": "D"
+}

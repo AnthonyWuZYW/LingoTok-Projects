@@ -1,0 +1,10 @@
+{
+    "Question": "What is the joke about in this conversation?",
+    "Options": [
+        "A.  A dentist appointment",
+        "B.  A concert",
+        "C.  A haircut",
+        "D.  Shoes"
+    ],
+    "Answer": "B"
+}

@@ -1,0 +1,31 @@
+﻿1
+00:00:01,670 --> 00:00:07,400
+And could human beings depend on computers for companionship? 
+
+2
+00:00:07,410 --> 00:00:11,400
+That's a concern raised by artificial Intelligence organization? 
+
+3
+00:00:11,620 --> 00:00:13,330
+Open AI this week, 
+
+4
+00:00:13,340 --> 00:00:17,290
+researchers there issued a safety review report of the tool. 
+
+5
+00:00:17,300 --> 00:00:21,850
+The report suggests a human sounding voice on chat GPT is
+
+6
+00:00:21,860 --> 00:00:26,950
+so realistic that some people may develop relationships with their tool. 
+
+7
+00:00:27,220 --> 00:00:33,810
+ChatGPTS advanced voice mode response in real time makes adjustments when interrupted, 
+
+8
+00:00:34,010 --> 00:00:38,240
+and can determine a person's emotional state by voice tone. 

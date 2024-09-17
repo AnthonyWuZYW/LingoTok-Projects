@@ -1,0 +1,3 @@
+﻿1
+00:00:00,040 --> 00:00:02,710
+How does something like this even happen? 

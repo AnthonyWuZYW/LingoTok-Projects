@@ -1,0 +1,35 @@
+﻿1
+00:00:00,010 --> 00:00:00,600
+If an outfit is
+
+2
+00:00:00,610 --> 00:00:01,880
+not interesting through color, 
+
+3
+00:00:01,890 --> 00:00:02,560
+then it has to be
+
+4
+00:00:02,570 --> 00:00:03,560
+interesting through shape. 
+
+5
+00:00:03,870 --> 00:00:05,135
+and If it's not interesting 
+
+6
+00:00:05,135 --> 00:00:06,820
+by shape, then it has to be
+
+7
+00:00:06,830 --> 00:00:07,600
+interesting through texture. 
+
+8
+00:00:07,610 --> 00:00:09,160
+If it's not interesting by texture, 
+
+9
+00:00:09,170 --> 00:00:11,170
+then it has to be interesting by color. 

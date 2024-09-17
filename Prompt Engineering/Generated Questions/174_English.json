@@ -1,0 +1,10 @@
+{
+    "Question": "What is the name of the hardest math class at Harvard mentioned in the video?",
+    "Options": [
+        "A. Math 101",
+        "B. Math 55",
+        "C. Advanced Calculus",
+        "D. Linear Algebra"
+    ],
+    "Answer": "B"
+}

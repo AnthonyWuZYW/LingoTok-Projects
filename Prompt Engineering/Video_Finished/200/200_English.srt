@@ -1,0 +1,63 @@
+﻿1
+00:00:00,130 --> 00:00:01,200
+Camera control response
+
+2
+00:00:01,210 --> 00:00:01,960
+to your finger pressure
+
+3
+00:00:01,970 --> 00:00:02,920
+with haptic feedback
+
+4
+00:00:02,930 --> 00:00:03,520
+as you navigate
+
+5
+00:00:03,530 --> 00:00:04,040
+through your camera
+
+6
+00:00:04,050 --> 00:00:04,440
+settings. 
+
+7
+00:00:04,450 --> 00:00:05,360
+A click launches
+
+8
+00:00:05,370 --> 00:00:06,505
+your camera instantly 
+
+9
+00:00:06,505 --> 00:00:07,520
+while a light double press
+
+10
+00:00:07,530 --> 00:00:07,800
+launches
+
+11
+00:00:07,810 --> 00:00:09,320
+an all new clean preview uy
+
+12
+00:00:09,330 --> 00:00:09,640
+where you
+
+13
+00:00:09,650 --> 00:00:10,360
+can slide to switch
+
+14
+00:00:10,370 --> 00:00:11,760
+between adjustable controls
+
+15
+00:00:11,770 --> 00:00:12,480
+like depth of feed, 
+
+16
+00:00:12,920 --> 00:00:14,870
+zoom and cameras. 

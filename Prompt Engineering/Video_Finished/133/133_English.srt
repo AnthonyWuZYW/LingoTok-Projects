@@ -1,0 +1,23 @@
+﻿1
+00:00:00,040 --> 00:00:01,680
+one percent 
+
+2
+00:00:05,560 --> 00:00:07,000
+eleven percent
+
+3
+00:00:13,720 --> 00:00:14,950
+thirty five percent
+
+4
+00:00:22,650 --> 00:00:23,910
+fifty five percent 
+
+5
+00:00:32,690 --> 00:00:34,220
+sixty nine percent 
+
+6
+00:00:42,450 --> 00:00:44,760
+ninety nine point nine nine percent 

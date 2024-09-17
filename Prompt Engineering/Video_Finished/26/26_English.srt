@@ -1,0 +1,11 @@
+﻿1
+00:00:00,040 --> 00:00:02,340
+I found someone that makes art out of cardboard.
+
+2
+00:00:02,350 --> 00:00:04,240
+But that artwork creates a shadow
+
+3
+00:00:04,240 --> 00:00:05,430
+of a different piece of art. 

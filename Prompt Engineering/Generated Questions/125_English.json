@@ -1,0 +1,10 @@
+{
+    "Question": "What is the main reason for the confusion in this conversation?",
+    "Options": [
+        "A. The boss is giving unclear instructions.",
+        "B. The workers are disobeying orders.",
+        "C. There is a misunderstanding about the destination.",
+        "D. The workers are trying to sabotage the mission."
+    ],
+    "Answer": "A"
+}

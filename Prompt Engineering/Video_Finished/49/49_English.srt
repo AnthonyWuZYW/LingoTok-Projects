@@ -1,0 +1,7 @@
+﻿1
+00:00:00,040 --> 00:00:01,152
+This baby was upset
+
+2
+00:00:01,152 --> 00:00:03,670
+because dad kept snoring. 

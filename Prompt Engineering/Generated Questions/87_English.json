@@ -1,0 +1,10 @@
+{
+    "Question": "What is the main point of the news in the conversation?",
+    "Options": [
+        "A. The speaker only has 30 years left to live.",
+        "B. The speaker needs to travel the world.",
+        "C. The speaker should get married and have a family.",
+        "D. The speaker should be happy because he has enough time to do everything."
+    ],
+    "Answer": "A"
+}

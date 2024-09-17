@@ -1,0 +1,87 @@
+﻿1
+00:00:00,010 --> 00:00:01,800
+Let's find the best study spots. 
+
+2
+00:00:01,810 --> 00:00:03,040
+okay I came to a cafe, 
+
+3
+00:00:03,050 --> 00:00:04,520
+and this place is a little noisy. 
+
+4
+00:00:04,530 --> 00:00:06,680
+Sitting here is just gonna make me wanna buy food
+
+5
+00:00:06,680 --> 00:00:07,480
+five out of ten. 
+
+6
+00:00:07,490 --> 00:00:08,960
+Now I'm outside trying to work. 
+
+7
+00:00:08,970 --> 00:00:10,360
+And although this is more peaceful, 
+
+8
+00:00:10,480 --> 00:00:12,670
+this pollen is gonna make me keep sneezing
+
+9
+00:00:12,680 --> 00:00:13,510
+four out of ten. 
+
+10
+00:00:13,520 --> 00:00:14,590
+So now we're at the library
+
+11
+00:00:14,600 --> 00:00:15,590
+away from the pollen. 
+
+12
+00:00:15,600 --> 00:00:17,510
+And although this place makes me feel smart, 
+
+13
+00:00:17,520 --> 00:00:19,270
+these chairs are pretty uncomfortable, 
+
+14
+00:00:19,280 --> 00:00:20,030
+six out of ten. 
+
+15
+00:00:20,040 --> 00:00:21,350
+Now I'm back home and I'm working
+
+16
+00:00:21,360 --> 00:00:22,060
+for my bed. 
+
+17
+00:00:22,070 --> 00:00:23,380
+I just wanna fall asleep 
+
+18
+00:00:23,390 --> 00:00:24,220
+two out of ten. 
+
+19
+00:00:24,230 --> 00:00:25,300
+And now I'm at my desk
+
+20
+00:00:25,310 --> 00:00:26,060
+with my monitors, 
+
+21
+00:00:26,070 --> 00:00:27,440
+supplies and everything I need 
+
+22
+00:00:27,440 --> 00:00:28,060
+ten out of ten. 

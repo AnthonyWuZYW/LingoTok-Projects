@@ -1,0 +1,10 @@
+{
+    "Question": "What does the person ask for at the beginning of the conversation?",
+    "Options": [
+        "A. Headphones",
+        "B. Earplugs",
+        "C. A mask",
+        "D. A blanket"
+    ],
+    "Answer": "B"
+}

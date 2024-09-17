@@ -1,0 +1,47 @@
+﻿1
+00:00:00,010 --> 00:00:02,440
+Did you know that when cars are launched in a drag race, 
+
+2
+00:00:02,450 --> 00:00:03,600
+their tires get wrinkled. 
+
+3
+00:00:03,610 --> 00:00:04,480
+You see, 
+
+4
+00:00:04,490 --> 00:00:07,280
+dragsters are some of the fastest accelerating machines in the world
+
+5
+00:00:07,290 --> 00:00:08,240
+To give you an idea,
+
+6
+00:00:08,250 --> 00:00:11,120
+they're more powerful than 12 formula one cars combined. 
+
+7
+00:00:11,130 --> 00:00:15,230
+They use specialized soft tires with really low air pressure to maximize the grip. 
+
+8
+00:00:15,240 --> 00:00:17,110
+When launched with such an immense torque, 
+
+9
+00:00:17,120 --> 00:00:19,070
+these tires undergo serious wrinkling, 
+
+10
+00:00:19,080 --> 00:00:21,190
+causing their diameter to shrink by 8 inches. 
+
+11
+00:00:21,200 --> 00:00:24,030
+What's even more impressive is that as they pick up speed, 
+
+12
+00:00:24,040 --> 00:00:26,830
+their tires actually expand due to centrifugal force. 
