@@ -1,6 +1,5 @@
 from flask import Flask, request
 import google.generativeai as genai
-import os
 import json
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import time
