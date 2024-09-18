@@ -8,11 +8,11 @@ app = Flask(__name__)
 genai.configure(api_key="AIzaSyBJKGrrwQsqtwGLi5nFCVCYeXJDSqXtARE")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-@app.route('/')
+@app.route('/get_question')
 def hello():
     return 'No file received'
 
-@app.route('/', methods = ['POST'])  
+@app.route('/get_question', methods = ['POST'])  
 def generateQuestions():
     content = request.files['file'].read().decode("utf-8")
     prompt = '''Create one question for new English learner based on the summary 
