@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 import google.generativeai as genai
 import json
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -10,7 +10,7 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 @app.route('/')
 def hello():
-    return 'No file received'
+    return render_template('/home.html')
 
 @app.route('/get_question', methods = ['POST'])  
 def generateQuestions():
@@ -45,7 +45,7 @@ def generateQuestions():
     json_text = json.loads(text)
     json_object = json.dumps(json_text, indent=4)
     
-    return json_object
+    return render_template('index.html', data=json_text, jsonfile=json_object)
 
 
 if __name__ == '__main__':
