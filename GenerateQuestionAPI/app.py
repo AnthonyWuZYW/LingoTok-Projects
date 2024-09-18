@@ -45,7 +45,7 @@ def generateQuestions():
     json_text = json.loads(text)
     json_object = json.dumps(json_text, indent=4)
     
-    return render_template('index.html', data=json_text, jsonfile=json_object)
+    return json_object
 
 
 if __name__ == '__main__':
