@@ -8,7 +8,7 @@ app = Flask(__name__)
 genai.configure(api_key="AIzaSyBJKGrrwQsqtwGLi5nFCVCYeXJDSqXtARE")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-@app.route('/get_question')
+@app.route('/')
 def hello():
     return 'No file received'
 
@@ -48,5 +48,5 @@ def generateQuestions():
     return json_object
 
 
-if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80)
+if __name__ == '__main__':
+    app.run(host = 'localhost', port = 8088, debug = True)
