@@ -1,8 +1,10 @@
-from flask import Flask, request, render_template
+from flask import Flask, jsonify, request, render_template
 import google.generativeai as genai
 import json
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import time
+import pandas as pd
+import os
 
 app = Flask(__name__)
 genai.configure(api_key="AIzaSyBJKGrrwQsqtwGLi5nFCVCYeXJDSqXtARE")
@@ -11,6 +13,38 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 @app.route('/')
 def hello():
     return render_template('/home.html')
+
+@app.route('/login', methods=['GET','POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password'] 
+
+        return 'Login successful!'
+
+    return render_template('/login.html')
+
+@app.route('/register', methods=['GET','POST'])
+def register():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password'] 
+        confirmPassword = request.form['confirmPassword'] 
+
+        # Validate password match
+        if password != confirmPassword:
+            return jsonify({'error': 'Passwords do not match.'})
+
+        # Save data to CSV
+        data = {'email': [email], 'password': [password]}
+        df = pd.DataFrame(data)
+        df.to_csv(os.path.dirname(os.path.realpath(__file__)) + "/data/login.csv", mode='a', index=False, header=False)
+
+        return 'Registration successful!'
+    else:
+        return render_template('register.html')
+    
+
 
 @app.route('/get_question', methods = ['POST'])  
 def generateQuestions():

@@ -1,0 +1,14 @@
+body {
+    /* ... your existing styles ... */
+    background-image: url("your-background-image.jpg"); /* Replace with your desired background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
