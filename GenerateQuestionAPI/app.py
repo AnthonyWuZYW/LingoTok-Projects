@@ -25,7 +25,16 @@ def login():
         email = request.form['email']
         password = request.form['password'] 
 
-        return 'Login successful!'
+        infos = eval(requests.request("GET", url, headers=headers).text)
+    
+        for info in infos:
+            if email == info["email"]:
+                if password == info["password"]:
+                    return 'Login successful!'
+                else:
+                    return jsonify({'error': 'Password not match!'})
+        
+        return jsonify({'error': 'No such account!'})
 
     return render_template('/login.html')
 
@@ -40,9 +49,14 @@ def register():
         if password != confirmPassword:
             return jsonify({'error': 'Passwords do not match.'})
 
+        infos = eval(requests.request("GET", url, headers=headers).text)
+        for info in infos:
+            if email == info["email"]:
+                return jsonify({'error': 'Already registered.'})
+
         # Save data to CSV
         data = {'email': email, 'password': password}
-        data = json.dumps( data)
+        data = json.dumps(data)
         requests.request("POST", url, data=data, headers=headers)
 
         return 'Registration successful!'
