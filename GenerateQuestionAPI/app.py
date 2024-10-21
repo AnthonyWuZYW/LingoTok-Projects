@@ -5,10 +5,15 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 import time
 import pandas as pd
 import os
+import requests
 
 app = Flask(__name__)
 genai.configure(api_key="AIzaSyBJKGrrwQsqtwGLi5nFCVCYeXJDSqXtARE")
 model = genai.GenerativeModel("gemini-1.5-flash")
+url = "https://logininfo-ba28.restdb.io/rest/login"
+headers = { 'content-type': "application/json",
+            'x-apikey': "9aa1e93a97e3045896d07a1177ac2f72ffa3c",
+            'cache-control': "no-cache"}
 
 @app.route('/')
 def hello():
@@ -37,8 +42,8 @@ def register():
 
         # Save data to CSV
         data = {'email': [email], 'password': [password]}
-        df = pd.DataFrame(data)
-        df.to_csv(os.path.dirname(os.path.realpath(__file__)) + "/data/login.csv", mode='a', index=False, header=False)
+        data = json.dumps( data)
+        requests.request("POST", url, data=data, headers=headers)
 
         return 'Registration successful!'
     else:
