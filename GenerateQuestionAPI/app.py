@@ -41,7 +41,7 @@ def register():
             return jsonify({'error': 'Passwords do not match.'})
 
         # Save data to CSV
-        data = {'email': [email], 'password': [password]}
+        data = {'email': email, 'password': password}
         data = json.dumps( data)
         requests.request("POST", url, data=data, headers=headers)
 
